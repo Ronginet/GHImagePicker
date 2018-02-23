@@ -81,6 +81,7 @@
 		E4EF5B2320406FB5004707DE /* GHImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				E4EF5B49204070C2004707DE /* GHImagePicker */,
 				E4EF5B2720406FB5004707DE /* AppDelegate.h */,
 				E4EF5B2820406FB5004707DE /* AppDelegate.m */,
 				E4EF5B2A20406FB5004707DE /* ViewController.h */,
@@ -109,6 +110,13 @@
 				E4EF5B4020406FB5004707DE /* Info.plist */,
 			);
 			path = GHImagePickerTests;
+			sourceTree = "<group>";
+		};
+		E4EF5B49204070C2004707DE /* GHImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GHImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
