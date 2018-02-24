@@ -14,6 +14,7 @@
 		E49B04332041B68C002432F2 /* GHPhotoToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04322041B68C002432F2 /* GHPhotoToolBar.m */; };
 		E49B04362041B6CB002432F2 /* GHPhotoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */; };
 		E49B04392041B6F7002432F2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04382041B6F7002432F2 /* UIView+Extension.m */; };
+		E49B043B2041B902002432F2 /* GHImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E49B043A2041B902002432F2 /* GHImagePicker.bundle */; };
 		E4EF5B2620406FB5004707DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2520406FB5004707DE /* main.m */; };
 		E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2820406FB5004707DE /* AppDelegate.m */; };
 		E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2B20406FB5004707DE /* ViewController.m */; };
@@ -48,6 +49,7 @@
 		E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoFlowLayout.m; sourceTree = "<group>"; };
 		E49B04372041B6F7002432F2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		E49B04382041B6F7002432F2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E49B043A2041B902002432F2 /* GHImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GHImagePicker.bundle; sourceTree = "<group>"; };
 		E4EF5B2120406FB5004707DE /* GHImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF5B2520406FB5004707DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4EF5B2720406FB5004707DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				E49B04322041B68C002432F2 /* GHPhotoToolBar.m */,
 				E49B04372041B6F7002432F2 /* UIView+Extension.h */,
 				E49B04382041B6F7002432F2 /* UIView+Extension.m */,
+				E49B043A2041B902002432F2 /* GHImagePicker.bundle */,
 			);
 			path = GHImagePicker;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49B043B2041B902002432F2 /* GHImagePicker.bundle in Resources */,
 				E4EF5B3420406FB5004707DE /* LaunchScreen.storyboard in Resources */,
 				E4EF5B3120406FB5004707DE /* Assets.xcassets in Resources */,
 				E4EF5B2F20406FB5004707DE /* Main.storyboard in Resources */,
