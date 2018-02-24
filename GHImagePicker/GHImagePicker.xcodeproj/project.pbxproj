@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E49B04272041B4EF002432F2 /* GHAlbumListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04262041B4EF002432F2 /* GHAlbumListVC.m */; };
+		E49B042A2041B568002432F2 /* GHAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04292041B568002432F2 /* GHAlbumCell.m */; };
 		E4EF5B2620406FB5004707DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2520406FB5004707DE /* main.m */; };
 		E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2820406FB5004707DE /* AppDelegate.m */; };
 		E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2B20406FB5004707DE /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E49B04252041B4EF002432F2 /* GHAlbumListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAlbumListVC.h; sourceTree = "<group>"; };
+		E49B04262041B4EF002432F2 /* GHAlbumListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAlbumListVC.m; sourceTree = "<group>"; };
+		E49B04282041B568002432F2 /* GHAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAlbumCell.h; sourceTree = "<group>"; };
+		E49B04292041B568002432F2 /* GHAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAlbumCell.m; sourceTree = "<group>"; };
 		E4EF5B2120406FB5004707DE /* GHImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF5B2520406FB5004707DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4EF5B2720406FB5004707DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +121,10 @@
 		E4EF5B49204070C2004707DE /* GHImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				E49B04252041B4EF002432F2 /* GHAlbumListVC.h */,
+				E49B04262041B4EF002432F2 /* GHAlbumListVC.m */,
+				E49B04282041B568002432F2 /* GHAlbumCell.h */,
+				E49B04292041B568002432F2 /* GHAlbumCell.m */,
 			);
 			path = GHImagePicker;
 			sourceTree = "<group>";
@@ -224,6 +234,8 @@
 				E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */,
 				E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */,
 				E4EF5B2620406FB5004707DE /* main.m in Sources */,
+				E49B042A2041B568002432F2 /* GHAlbumCell.m in Sources */,
+				E49B04272041B4EF002432F2 /* GHAlbumListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +434,7 @@
 				E4EF5B4520406FB5004707DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4EF5B4620406FB5004707DE /* Build configuration list for PBXNativeTarget "GHImagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +443,7 @@
 				E4EF5B4820406FB5004707DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
