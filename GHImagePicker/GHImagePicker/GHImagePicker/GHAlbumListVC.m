@@ -8,7 +8,7 @@
 
 #import "GHAlbumListVC.h"
 #import "GHAlbumCell.h"
-//#import "GHPhotoListVC.h"
+#import "GHPhotoListVC.h"
 
 #import <Photos/Photos.h>
 
@@ -94,11 +94,11 @@ static CGFloat const thumbImageWidthAndHeight = 55;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-//    GHAlbumModel *model = self.albums[indexPath.row];
-//    GHPhotoListVC *vc = [GHPhotoListVC new];
-//    vc.title = model.title;
-//    vc.assetCollection = model.assetCollection;
-//    [self.navigationController pushViewController:vc animated:YES];
+    GHAlbumModel *model = self.albums[indexPath.row];
+    GHPhotoListVC *vc = [GHPhotoListVC new];
+    vc.title = model.title;
+    vc.assetCollection = model.assetCollection;
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
