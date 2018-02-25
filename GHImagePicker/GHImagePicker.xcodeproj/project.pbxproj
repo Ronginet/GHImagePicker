@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E49B04272041B4EF002432F2 /* GHAlbumListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04262041B4EF002432F2 /* GHAlbumListVC.m */; };
+		E49B042A2041B568002432F2 /* GHAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04292041B568002432F2 /* GHAlbumCell.m */; };
+		E49B042D2041B602002432F2 /* GHPhotoListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B042C2041B602002432F2 /* GHPhotoListVC.m */; };
+		E49B04302041B64F002432F2 /* GHPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B042F2041B64F002432F2 /* GHPhotoCell.m */; };
+		E49B04332041B68C002432F2 /* GHPhotoToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04322041B68C002432F2 /* GHPhotoToolBar.m */; };
+		E49B04362041B6CB002432F2 /* GHPhotoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */; };
+		E49B04392041B6F7002432F2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04382041B6F7002432F2 /* UIView+Extension.m */; };
+		E49B043B2041B902002432F2 /* GHImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E49B043A2041B902002432F2 /* GHImagePicker.bundle */; };
 		E4EF5B2620406FB5004707DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2520406FB5004707DE /* main.m */; };
 		E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2820406FB5004707DE /* AppDelegate.m */; };
 		E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2B20406FB5004707DE /* ViewController.m */; };
@@ -27,6 +35,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E49B04252041B4EF002432F2 /* GHAlbumListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAlbumListVC.h; sourceTree = "<group>"; };
+		E49B04262041B4EF002432F2 /* GHAlbumListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAlbumListVC.m; sourceTree = "<group>"; };
+		E49B04282041B568002432F2 /* GHAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAlbumCell.h; sourceTree = "<group>"; };
+		E49B04292041B568002432F2 /* GHAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAlbumCell.m; sourceTree = "<group>"; };
+		E49B042B2041B602002432F2 /* GHPhotoListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoListVC.h; sourceTree = "<group>"; };
+		E49B042C2041B602002432F2 /* GHPhotoListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoListVC.m; sourceTree = "<group>"; };
+		E49B042E2041B64F002432F2 /* GHPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoCell.h; sourceTree = "<group>"; };
+		E49B042F2041B64F002432F2 /* GHPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoCell.m; sourceTree = "<group>"; };
+		E49B04312041B68C002432F2 /* GHPhotoToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoToolBar.h; sourceTree = "<group>"; };
+		E49B04322041B68C002432F2 /* GHPhotoToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoToolBar.m; sourceTree = "<group>"; };
+		E49B04342041B6CB002432F2 /* GHPhotoFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoFlowLayout.h; sourceTree = "<group>"; };
+		E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoFlowLayout.m; sourceTree = "<group>"; };
+		E49B04372041B6F7002432F2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E49B04382041B6F7002432F2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E49B043A2041B902002432F2 /* GHImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GHImagePicker.bundle; sourceTree = "<group>"; };
 		E4EF5B2120406FB5004707DE /* GHImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF5B2520406FB5004707DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4EF5B2720406FB5004707DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +138,21 @@
 		E4EF5B49204070C2004707DE /* GHImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				E49B04252041B4EF002432F2 /* GHAlbumListVC.h */,
+				E49B04262041B4EF002432F2 /* GHAlbumListVC.m */,
+				E49B042B2041B602002432F2 /* GHPhotoListVC.h */,
+				E49B042C2041B602002432F2 /* GHPhotoListVC.m */,
+				E49B04282041B568002432F2 /* GHAlbumCell.h */,
+				E49B04292041B568002432F2 /* GHAlbumCell.m */,
+				E49B042E2041B64F002432F2 /* GHPhotoCell.h */,
+				E49B042F2041B64F002432F2 /* GHPhotoCell.m */,
+				E49B04342041B6CB002432F2 /* GHPhotoFlowLayout.h */,
+				E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */,
+				E49B04312041B68C002432F2 /* GHPhotoToolBar.h */,
+				E49B04322041B68C002432F2 /* GHPhotoToolBar.m */,
+				E49B04372041B6F7002432F2 /* UIView+Extension.h */,
+				E49B04382041B6F7002432F2 /* UIView+Extension.m */,
+				E49B043A2041B902002432F2 /* GHImagePicker.bundle */,
 			);
 			path = GHImagePicker;
 			sourceTree = "<group>";
@@ -201,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49B043B2041B902002432F2 /* GHImagePicker.bundle in Resources */,
 				E4EF5B3420406FB5004707DE /* LaunchScreen.storyboard in Resources */,
 				E4EF5B3120406FB5004707DE /* Assets.xcassets in Resources */,
 				E4EF5B2F20406FB5004707DE /* Main.storyboard in Resources */,
@@ -221,9 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49B04392041B6F7002432F2 /* UIView+Extension.m in Sources */,
 				E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */,
 				E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */,
 				E4EF5B2620406FB5004707DE /* main.m in Sources */,
+				E49B04302041B64F002432F2 /* GHPhotoCell.m in Sources */,
+				E49B04362041B6CB002432F2 /* GHPhotoFlowLayout.m in Sources */,
+				E49B042A2041B568002432F2 /* GHAlbumCell.m in Sources */,
+				E49B042D2041B602002432F2 /* GHPhotoListVC.m in Sources */,
+				E49B04272041B4EF002432F2 /* GHAlbumListVC.m in Sources */,
+				E49B04332041B68C002432F2 /* GHPhotoToolBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GHImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rong.GHImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GHImagePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rong.GHImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +470,7 @@
 				E4EF5B4520406FB5004707DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4EF5B4620406FB5004707DE /* Build configuration list for PBXNativeTarget "GHImagePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +479,7 @@
 				E4EF5B4820406FB5004707DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
