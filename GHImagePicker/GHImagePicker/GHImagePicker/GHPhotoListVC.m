@@ -100,7 +100,7 @@ static CGFloat const toolBarHeight = 45.0;
         options.resizeMode = PHImageRequestOptionsResizeModeExact;
         
         //        CGFloat scale = [UIScreen mainScreen].scale;
-        [[PHCachingImageManager defaultManager] requestImageForAsset:asset targetSize:CGSizeMake(200, 200) contentMode:PHImageContentModeAspectFill options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+        [[PHCachingImageManager defaultManager] requestImageForAsset:asset targetSize:CGSizeMake(200, 200) contentMode:PHImageContentModeAspectFill options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
             [self.photos addObject:result];
         }];
     }];
