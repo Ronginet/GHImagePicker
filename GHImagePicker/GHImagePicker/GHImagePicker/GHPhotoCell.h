@@ -11,6 +11,7 @@
 @interface GHPhotoCell : UICollectionViewCell
 
 @property (nonatomic, strong) UIImage *image;
+@property (nonatomic, copy) void(^selectButtonBlock)(UIImage *image, BOOL selected);
 
 + (NSString *)reuseIdentifier;
 

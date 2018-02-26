@@ -65,6 +65,9 @@
         animation.fillMode = kCAFillModeForwards;
         [btn.layer addAnimation:animation forKey:nil];
     }
+    if (self.selectButtonBlock) {
+        self.selectButtonBlock(self.imageView.image, btn.isSelected);
+    }
 }
 
 #pragma mark - Getter,Setter
