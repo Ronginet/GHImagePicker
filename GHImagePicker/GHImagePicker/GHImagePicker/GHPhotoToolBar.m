@@ -78,7 +78,7 @@
     self.originalButton.frame = CGRectMake(self.bounds.size.width / 2 - 60 / 2, self.bounds.size.height / 2 - self.originalButton.imageView.image.size.height / 2, 60, self.originalButton.imageView.image.size.height);
     
     size = [self.sendButton.titleLabel.text sizeWithAttributes:@{NSFontAttributeName : self.sendButton.titleLabel.font}];
-    CGFloat sendButtonWidth = size.width + 30;
+    CGFloat sendButtonWidth = size.width + 50;
     CGFloat sendButtonHeight = size.height + 15;
     self.sendButton.frame = CGRectMake(self.bounds.size.width - margin - sendButtonWidth, self.bounds.size.height / 2 - sendButtonHeight / 2, sendButtonWidth, sendButtonHeight);
 }
