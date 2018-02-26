@@ -15,6 +15,13 @@
 		E49B04362041B6CB002432F2 /* GHPhotoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */; };
 		E49B04392041B6F7002432F2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E49B04382041B6F7002432F2 /* UIView+Extension.m */; };
 		E49B043B2041B902002432F2 /* GHImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E49B043A2041B902002432F2 /* GHImagePicker.bundle */; };
+		E4EF582B20446123000275B4 /* GHPhotoPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF582A20446123000275B4 /* GHPhotoPreviewVC.m */; };
+		E4EF582E20446172000275B4 /* GHPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF582D20446172000275B4 /* GHPhotoPreviewCell.m */; };
+		E4EF5831204461A8000275B4 /* GHPhotoPreviewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5830204461A8000275B4 /* GHPhotoPreviewFlowLayout.m */; };
+		E4EF5834204461DA000275B4 /* GHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5833204461DA000275B4 /* GHNavigationBar.m */; };
+		E4EF58372044623B000275B4 /* GHPhotoThumbnailPreviewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF58362044623B000275B4 /* GHPhotoThumbnailPreviewBar.m */; };
+		E4EF583A20446279000275B4 /* GHPhotoThumbnailPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF583920446279000275B4 /* GHPhotoThumbnailPreviewCell.m */; };
+		E4EF583D204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF583C204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.m */; };
 		E4EF5B2620406FB5004707DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2520406FB5004707DE /* main.m */; };
 		E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2820406FB5004707DE /* AppDelegate.m */; };
 		E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF5B2B20406FB5004707DE /* ViewController.m */; };
@@ -51,6 +58,20 @@
 		E49B04382041B6F7002432F2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		E49B043A2041B902002432F2 /* GHImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GHImagePicker.bundle; sourceTree = "<group>"; };
 		E4EF582820446080000275B4 /* GHDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHDefine.h; sourceTree = "<group>"; };
+		E4EF582920446123000275B4 /* GHPhotoPreviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoPreviewVC.h; sourceTree = "<group>"; };
+		E4EF582A20446123000275B4 /* GHPhotoPreviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoPreviewVC.m; sourceTree = "<group>"; };
+		E4EF582C20446172000275B4 /* GHPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoPreviewCell.h; sourceTree = "<group>"; };
+		E4EF582D20446172000275B4 /* GHPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoPreviewCell.m; sourceTree = "<group>"; };
+		E4EF582F204461A8000275B4 /* GHPhotoPreviewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoPreviewFlowLayout.h; sourceTree = "<group>"; };
+		E4EF5830204461A8000275B4 /* GHPhotoPreviewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoPreviewFlowLayout.m; sourceTree = "<group>"; };
+		E4EF5832204461DA000275B4 /* GHNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHNavigationBar.h; sourceTree = "<group>"; };
+		E4EF5833204461DA000275B4 /* GHNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHNavigationBar.m; sourceTree = "<group>"; };
+		E4EF58352044623B000275B4 /* GHPhotoThumbnailPreviewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoThumbnailPreviewBar.h; sourceTree = "<group>"; };
+		E4EF58362044623B000275B4 /* GHPhotoThumbnailPreviewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoThumbnailPreviewBar.m; sourceTree = "<group>"; };
+		E4EF583820446279000275B4 /* GHPhotoThumbnailPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoThumbnailPreviewCell.h; sourceTree = "<group>"; };
+		E4EF583920446279000275B4 /* GHPhotoThumbnailPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoThumbnailPreviewCell.m; sourceTree = "<group>"; };
+		E4EF583B204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPhotoThumbnailPreviewFlowLayout.h; sourceTree = "<group>"; };
+		E4EF583C204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPhotoThumbnailPreviewFlowLayout.m; sourceTree = "<group>"; };
 		E4EF5B2120406FB5004707DE /* GHImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF5B2520406FB5004707DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4EF5B2720406FB5004707DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -143,14 +164,28 @@
 				E49B04262041B4EF002432F2 /* GHAlbumListVC.m */,
 				E49B042B2041B602002432F2 /* GHPhotoListVC.h */,
 				E49B042C2041B602002432F2 /* GHPhotoListVC.m */,
+				E4EF582920446123000275B4 /* GHPhotoPreviewVC.h */,
+				E4EF582A20446123000275B4 /* GHPhotoPreviewVC.m */,
+				E4EF582C20446172000275B4 /* GHPhotoPreviewCell.h */,
+				E4EF582D20446172000275B4 /* GHPhotoPreviewCell.m */,
+				E4EF582F204461A8000275B4 /* GHPhotoPreviewFlowLayout.h */,
+				E4EF5830204461A8000275B4 /* GHPhotoPreviewFlowLayout.m */,
 				E49B04282041B568002432F2 /* GHAlbumCell.h */,
 				E49B04292041B568002432F2 /* GHAlbumCell.m */,
 				E49B042E2041B64F002432F2 /* GHPhotoCell.h */,
 				E49B042F2041B64F002432F2 /* GHPhotoCell.m */,
+				E4EF5832204461DA000275B4 /* GHNavigationBar.h */,
+				E4EF5833204461DA000275B4 /* GHNavigationBar.m */,
 				E49B04342041B6CB002432F2 /* GHPhotoFlowLayout.h */,
 				E49B04352041B6CB002432F2 /* GHPhotoFlowLayout.m */,
 				E49B04312041B68C002432F2 /* GHPhotoToolBar.h */,
 				E49B04322041B68C002432F2 /* GHPhotoToolBar.m */,
+				E4EF58352044623B000275B4 /* GHPhotoThumbnailPreviewBar.h */,
+				E4EF58362044623B000275B4 /* GHPhotoThumbnailPreviewBar.m */,
+				E4EF583820446279000275B4 /* GHPhotoThumbnailPreviewCell.h */,
+				E4EF583920446279000275B4 /* GHPhotoThumbnailPreviewCell.m */,
+				E4EF583B204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.h */,
+				E4EF583C204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.m */,
 				E49B04372041B6F7002432F2 /* UIView+Extension.h */,
 				E49B04382041B6F7002432F2 /* UIView+Extension.m */,
 				E4EF582820446080000275B4 /* GHDefine.h */,
@@ -263,13 +298,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49B04392041B6F7002432F2 /* UIView+Extension.m in Sources */,
+				E4EF583D204462AF000275B4 /* GHPhotoThumbnailPreviewFlowLayout.m in Sources */,
 				E4EF5B2C20406FB5004707DE /* ViewController.m in Sources */,
 				E4EF5B2920406FB5004707DE /* AppDelegate.m in Sources */,
 				E4EF5B2620406FB5004707DE /* main.m in Sources */,
+				E4EF582B20446123000275B4 /* GHPhotoPreviewVC.m in Sources */,
 				E49B04302041B64F002432F2 /* GHPhotoCell.m in Sources */,
+				E4EF582E20446172000275B4 /* GHPhotoPreviewCell.m in Sources */,
+				E4EF583A20446279000275B4 /* GHPhotoThumbnailPreviewCell.m in Sources */,
+				E4EF5831204461A8000275B4 /* GHPhotoPreviewFlowLayout.m in Sources */,
 				E49B04362041B6CB002432F2 /* GHPhotoFlowLayout.m in Sources */,
 				E49B042A2041B568002432F2 /* GHAlbumCell.m in Sources */,
+				E4EF5834204461DA000275B4 /* GHNavigationBar.m in Sources */,
 				E49B042D2041B602002432F2 /* GHPhotoListVC.m in Sources */,
+				E4EF58372044623B000275B4 /* GHPhotoThumbnailPreviewBar.m in Sources */,
 				E49B04272041B4EF002432F2 /* GHAlbumListVC.m in Sources */,
 				E49B04332041B68C002432F2 /* GHPhotoToolBar.m in Sources */,
 			);
