@@ -50,6 +50,7 @@
 		E49B04372041B6F7002432F2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		E49B04382041B6F7002432F2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		E49B043A2041B902002432F2 /* GHImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GHImagePicker.bundle; sourceTree = "<group>"; };
+		E4EF582820446080000275B4 /* GHDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHDefine.h; sourceTree = "<group>"; };
 		E4EF5B2120406FB5004707DE /* GHImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EF5B2520406FB5004707DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4EF5B2720406FB5004707DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,6 +153,7 @@
 				E49B04322041B68C002432F2 /* GHPhotoToolBar.m */,
 				E49B04372041B6F7002432F2 /* UIView+Extension.h */,
 				E49B04382041B6F7002432F2 /* UIView+Extension.m */,
+				E4EF582820446080000275B4 /* GHDefine.h */,
 				E49B043A2041B902002432F2 /* GHImagePicker.bundle */,
 			);
 			path = GHImagePicker;
