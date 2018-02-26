@@ -11,6 +11,7 @@
 #import "GHPhotoToolBar.h"
 #import "GHPhotoFlowLayout.h"
 #import "UIView+Extension.h"
+#import "GHPhotoPreviewVC.h"
 
 static CGFloat const toolBarHeight = 45.0;
 
@@ -70,7 +71,9 @@ static CGFloat const toolBarHeight = 45.0;
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    
+    GHPhotoPreviewVC *vc = [GHPhotoPreviewVC new];
+    [vc setupPhotos:self.photos.copy];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
