@@ -20,6 +20,7 @@ static CGFloat const toolBarHeight = 45.0;
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) GHPhotoToolBar *toolBar;
 @property (nonatomic, strong) NSMutableArray *photos;
+@property (nonatomic, strong) NSMutableArray *selectedPhotos;
 
 @end
 
@@ -65,8 +66,18 @@ static CGFloat const toolBarHeight = 45.0;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    __weak typeof(self) weakSelf = self;
     GHPhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:[GHPhotoCell reuseIdentifier] forIndexPath:indexPath];
     cell.image = self.photos[indexPath.item];
+    cell.selectButtonBlock = ^(UIImage *image, BOOL selected) {
+        if (selected) {
+            [weakSelf.selectedPhotos addObject:image];
+            [weakSelf.toolBar setupTitleWithSelectedCount:weakSelf.selectedPhotos.count];
+        } else {
+            [weakSelf.selectedPhotos removeObject:image];
+            [weakSelf.toolBar setupTitleWithSelectedCount:weakSelf.selectedPhotos.count];
+        }
+    };
     return cell;
 }
 
@@ -87,6 +98,13 @@ static CGFloat const toolBarHeight = 45.0;
         _photos = [NSMutableArray array];
     }
     return _photos;
+}
+
+- (NSMutableArray *)selectedPhotos {
+    if (!_selectedPhotos) {
+        _selectedPhotos = [NSMutableArray array];
+    }
+    return _selectedPhotos;
 }
 
 - (void)setAssetCollection:(PHAssetCollection *)assetCollection {
