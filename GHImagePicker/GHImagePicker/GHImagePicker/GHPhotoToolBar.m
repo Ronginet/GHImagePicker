@@ -12,6 +12,7 @@
 
 @interface GHPhotoToolBar ()
 
+@property (nonatomic, assign, readwrite) GHPhotoToolBarType toolBarType;
 @property (nonatomic, strong) UIButton *previewButton;
 @property (nonatomic, strong) UIButton *originalButton;
 @property (nonatomic, strong) UIButton *sendButton;
@@ -20,19 +21,25 @@
 
 @implementation GHPhotoToolBar
 
-- (instancetype)initWithFrame:(CGRect)frame {
+- (instancetype)initWithFrame:(CGRect)frame toolBarType:(GHPhotoToolBarType)type {
     self = [super initWithFrame:frame];
     if (self) {
+        self.toolBarType = type;
         [self setupUI];
     }
     return self;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    return [self initWithFrame:frame toolBarType:GHPhotoToolBarTypePreview];
+}
+
 - (void)setupUI {
     self.backgroundColor = [UIColor colorWithWhite:0 alpha:0.7];
     
+    NSString *title = self.toolBarType == GHPhotoToolBarTypePreview ? @"预览" : @"编辑";
     self.previewButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.previewButton setTitle:@"预览" forState:UIControlStateNormal];
+    [self.previewButton setTitle:title forState:UIControlStateNormal];
     [self.previewButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.previewButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateDisabled];
     self.previewButton.titleLabel.font = [UIFont systemFontOfSize:16];
@@ -54,7 +61,6 @@
     [self.sendButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.sendButton setTitleColor:[UIColor colorWithWhite:1 alpha:0.5] forState:UIControlStateDisabled];
     self.sendButton.titleLabel.font = [UIFont systemFontOfSize:15];
-    // GHRGBColor(38, 171, 40)
     [self.sendButton setBackgroundColor:GHRGBColor(26, 81, 26)];
     self.sendButton.layer.cornerRadius = 6.0;
     [self.sendButton.layer masksToBounds];
@@ -80,18 +86,43 @@
 
 #pragma mark - Public
 
+- (void)setupTitleWithSelectedCount:(NSInteger)count {
+    if (count == 0) {
+        [self.sendButton setTitle:@"发送" forState:UIControlStateNormal];
+        [self.sendButton setBackgroundColor:GHRGBColor(26, 81, 26)];
+        self.previewButton.enabled = NO;
+        self.sendButton.enabled = NO;
+        return;
+    }
+    
+    if (count > 99) {
+        [self.sendButton setTitle:@"发送(99+)" forState:UIControlStateNormal];
+    } else {
+        [self.sendButton setTitle:[NSString stringWithFormat:@"发送(%zd)",count] forState:UIControlStateNormal];
+    }
+    self.previewButton.enabled = YES;
+    self.sendButton.enabled = YES;
+    [self.sendButton setBackgroundColor:GHRGBColor(38, 171, 40)];
+}
+
 #pragma mark - Private
 
 - (void)previewButtonClicked:(UIButton *)btn {
-    
+    if (self.previewButtonBlock) {
+        self.previewButtonBlock();
+    }
 }
 
 - (void)originalButtonClicked:(UIButton *)btn {
-    
+    if (self.originalButtonBlock) {
+        self.originalButtonBlock();
+    }
 }
 
 - (void)sendButtonClicked:(UIButton *)btn {
-    
+    if (self.sendButtonBlock) {
+        self.sendButtonBlock();
+    }
 }
 
 @end
